@@ -18,9 +18,9 @@ public class ChangeUserDataTest {
     private Response response;
     private User user;
     private String accessToken;
-    private String name;
-    private String email;
-    private String password;
+    String name;
+    String email;
+    String password;
 
     @Before
     public void setUp() {
